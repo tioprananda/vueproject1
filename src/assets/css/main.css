@@ -1,0 +1,32 @@
+#app{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar {
+    color: #63C7FF;
+}
+
+.router-link-exact-active {
+    color: black;
+    font-weight: bold;
+}
+
+.badge {
+background-color: #63C7FF;
+}
+
+.btn{
+    background-color: #63C7FF;
+}
+
+.container {
+    margin : 70px auto;
+}
+
+.img-fluid, .card-img-top, .card {
+    border-radius: 15px;
+}
+
+b-icon-trash {
+}
+
