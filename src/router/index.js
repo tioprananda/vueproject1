@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import FoodsDetail from '../views/FoodsDetail.vue'
 import KeranjangView from '../views/KeranjangView.vue'
+import OrderSukses from '../views/OrderSukses.vue'
 
 Vue.use(VueRouter)
 
@@ -21,6 +22,11 @@ const routes = [
     path: '/keranjang',
     name: 'KeranjangView',
     component: KeranjangView
+  },
+  {
+    path: '/ordersukses',
+    name: 'OrderSukses',
+    component: OrderSukses
   },
   {
     path: '/foods',
